@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* SHARED BUTTON STYLE */
+.button {
+  background-color: brown;
+  color: white;
+  font-size: 15px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* FEATURES SECTION */
+.features {
+  background-color: wheat;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  width: 300px;
+  background-color: burlywood;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 1rem;
+  color: hsl(0, 0%, 15%);
+  line-height: 1.8;
+  font-style: italic;
+}
+
+/* MOCKUP SECTION */
+.mock-up {
+  background-color: hsl(0, 0%, 50%);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mc-text {
+  color: aquamarine;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mc-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* TESTIMONIALS SECTION */
+.testimonials {
+  background-color: aquamarine;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.person {
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.test-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.p-text {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+/* CTA SECTION */
+.call-to-action {
+  background-color: blue;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-text {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FOOTER */
+.foot {
+  background-color: #1e1e1e;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.foot a {
+  color: #4da6ff;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.foot a:hover {
+  color: #ffffff;
+}
